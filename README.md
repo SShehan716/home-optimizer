@@ -32,10 +32,11 @@ An intelligent, mobile-responsive web application that uses AI to transform your
    ```
 
 3. Configure Environment Variables:
-   Create a `.env` file in the root directory and add your Gemini API key:
-   ```env
-   VITE_GEMINI_API_KEY=your_api_key_here
+   Copy the `.env.example` file to create a new `.env` file:
+   ```bash
+   cp .env.example .env
    ```
+   Open the `.env` file and replace `"your_api_key_here"` with your actual Gemini API key.
 
 4. Start the development server:
    ```bash
