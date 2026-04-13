@@ -1,16 +1,50 @@
-# React + Vite
+# Home Optimizer - AI Interior Design App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intelligent, mobile-responsive web application that uses AI to transform your room photos into beautifully arranged spaces and provides personalized design advice.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **AI Room Analysis**: Leverages Google Gemini to analyze uploaded photos of your room.
+- **Smart Recommendations**: Get tailored suggestions for furniture placement, color palettes, and decor.
+- **Modern UI**: Clean, responsive design built with React and Vite.
+- **Iconography**: Beautiful icons provided by Lucide React.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 19, Vite
+- **AI Integration**: Google Generative AI SDK (`@google/generative-ai`)
+- **Styling**: Vanilla CSS
+- **Icons**: Lucide React
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- A Google Gemini API Key
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Configure Environment Variables:
+   Create a `.env` file in the root directory and add your Gemini API key:
+   ```env
+   VITE_GEMINI_API_KEY=your_api_key_here
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Scripts
+
+- `npm run dev`: Starts the local development server.
+- `npm run build`: Bundles the app for production.
+- `npm run lint`: Runs ESLint to catch code issues.
+- `npm run preview`: Previews the production build locally.
