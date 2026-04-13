@@ -22,6 +22,7 @@ An intelligent, mobile-responsive web application that uses AI to transform your
 
 - Node.js (v18 or higher recommended)
 - A Google Gemini API Key
+- An OpenRouter API Key (for the Chat Assistant)
 
 ### Installation
 
@@ -36,7 +37,7 @@ An intelligent, mobile-responsive web application that uses AI to transform your
    ```bash
    cp .env.example .env
    ```
-   Open the `.env` file and replace `"your_api_key_here"` with your actual Gemini API key.
+   Open the `.env` file and replace the placeholders with your actual API keys.
 
 4. Start the development server:
    ```bash
